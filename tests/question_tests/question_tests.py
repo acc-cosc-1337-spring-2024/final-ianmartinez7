@@ -2,9 +2,6 @@
 import unittest
 from src.question_a.question_a import find_lowest, find_highest, calculate_total, calculate_average, test_config
 
-#follow this example to add questions b, c, and d for testing including their functions
-
-
 class Test_Config(unittest.TestCase):
 
     def test_question_a_config(self):
@@ -26,6 +23,10 @@ class TestQuestionA(unittest.TestCase):
     def test_calculate_average(self):
         
         self.assertAlmostEqual(calculate_average([1, 2, 3, 4, 5]), 3.0)
+
+
+#no test case for question_b :)
+
 
 if __name__ == '__main__':
     unittest.main()
