@@ -1,6 +1,7 @@
 #write functions here, don't add input('') statements here!
+def test_config():
+    return True
 
-#main logic here
 def get_numbers():
     numbers = []
     for i in range(5):
