@@ -26,6 +26,8 @@ class TestQuestionA(unittest.TestCase):
 
 
 #no test case for question_b :)
+#no test case for question_c :)
+
 
 
 if __name__ == '__main__':
